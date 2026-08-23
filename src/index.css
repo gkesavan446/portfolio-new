@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f2f0e9;
+  --color-ink: #182a31;
+  --color-muted: #5e6f73;
+  --color-surface: #e3e9e7;
+  --color-accent: #397e78;
+  --color-navy: #213b45;
+  --color-line: #b8c4c1;
+  --font-display: Georgia, "Times New Roman", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 76px;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: #f2f0e9;
+  color: #182a31;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
